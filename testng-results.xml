@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="112056" started-at="2021-07-22T21:07:39 IST" finished-at="2021-07-22T21:09:31 IST">
+    <groups>
+      <group name="group2">
+        <method signature="HomePageTest.verifyLanguagesLinkIsAvailable()[pri:0, instance:HomePageTest@3c0f93f1]" name="verifyLanguagesLinkIsAvailable" class="HomePageTest"/>
+        <method signature="HomePageTest.verifyPageTitle()[pri:0, instance:HomePageTest@3c0f93f1]" name="verifyPageTitle" class="HomePageTest"/>
+        <method signature="HomePageTest.verifyTodaysDate()[pri:0, instance:HomePageTest@3c0f93f1]" name="verifyTodaysDate" class="HomePageTest"/>
+        <method signature="HomePageTest.verifyUsersMenuAvailable()[pri:0, instance:HomePageTest@3c0f93f1]" name="verifyUsersMenuAvailable" class="HomePageTest"/>
+      </group> <!-- group2 -->
+      <group name="group1">
+        <method signature="HomePageTest.verifyAussieTimeSheetsimg()[pri:0, instance:HomePageTest@3c0f93f1]" name="verifyAussieTimeSheetsimg" class="HomePageTest"/>
+        <method signature="HomePageTest.verifyPageTitle()[pri:0, instance:HomePageTest@3c0f93f1]" name="verifyPageTitle" class="HomePageTest"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="Surefire test" duration-ms="112056" started-at="2021-07-22T21:07:39 IST" finished-at="2021-07-22T21:09:31 IST">
+      <class name="AllUsersPageTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:AllUsersPageTest@10bdf5e5]" name="initializeDriver" is-config="true" duration-ms="34881" started-at="2021-07-22T21:07:39 IST" finished-at="2021-07-22T21:08:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="verifyDemo()[pri:0, instance:AllUsersPageTest@10bdf5e5]" name="verifyDemo" duration-ms="310" started-at="2021-07-22T21:08:14 IST" finished-at="2021-07-22T21:08:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDemo -->
+        <test-method status="PASS" signature="verifyUserListContainOb()[pri:0, instance:AllUsersPageTest@10bdf5e5]" name="verifyUserListContainOb" duration-ms="416" started-at="2021-07-22T21:08:14 IST" finished-at="2021-07-22T21:08:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserListContainOb -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:AllUsersPageTest@10bdf5e5]" name="quit" is-config="true" duration-ms="813" started-at="2021-07-22T21:08:14 IST" finished-at="2021-07-22T21:08:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- AllUsersPageTest -->
+      <class name="LoginPageTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:LoginPageTest@544fe44c]" name="initializeDriver" is-config="true" duration-ms="3221" started-at="2021-07-22T21:08:35 IST" finished-at="2021-07-22T21:08:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="SigintoBrowser()[pri:0, instance:LoginPageTest@544fe44c]" name="SigintoBrowser" is-config="true" duration-ms="20200" started-at="2021-07-22T21:08:38 IST" finished-at="2021-07-22T21:08:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigintoBrowser -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:LoginPageTest@544fe44c]" name="verifyPageTitle" duration-ms="83" started-at="2021-07-22T21:08:59 IST" finished-at="2021-07-22T21:08:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+      </class> <!-- LoginPageTest -->
+      <class name="HomePageTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:HomePageTest@3c0f93f1]" name="initializeDriver" is-config="true" duration-ms="17093" started-at="2021-07-22T21:08:15 IST" finished-at="2021-07-22T21:08:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="verifyAussieTimeSheetsimg()[pri:0, instance:HomePageTest@3c0f93f1]" name="verifyAussieTimeSheetsimg" duration-ms="329" started-at="2021-07-22T21:08:32 IST" finished-at="2021-07-22T21:08:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAussieTimeSheetsimg -->
+        <test-method status="PASS" signature="verifyLanguagesLinkIsAvailable()[pri:0, instance:HomePageTest@3c0f93f1]" name="verifyLanguagesLinkIsAvailable" duration-ms="240" started-at="2021-07-22T21:08:33 IST" finished-at="2021-07-22T21:08:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLanguagesLinkIsAvailable -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:HomePageTest@3c0f93f1]" name="verifyPageTitle" duration-ms="37" started-at="2021-07-22T21:08:33 IST" finished-at="2021-07-22T21:08:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="verifyTodaysDate()[pri:0, instance:HomePageTest@3c0f93f1]" name="verifyTodaysDate" duration-ms="128" started-at="2021-07-22T21:08:33 IST" finished-at="2021-07-22T21:08:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTodaysDate -->
+        <test-method status="PASS" signature="verifyUsersMenuAvailable()[pri:0, instance:HomePageTest@3c0f93f1]" name="verifyUsersMenuAvailable" duration-ms="1375" started-at="2021-07-22T21:08:33 IST" finished-at="2021-07-22T21:08:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsersMenuAvailable -->
+        <test-method status="PASS" signature="windowQuit()[pri:0, instance:HomePageTest@3c0f93f1]" name="windowQuit" is-config="true" duration-ms="837" started-at="2021-07-22T21:08:34 IST" finished-at="2021-07-22T21:08:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowQuit -->
+      </class> <!-- HomePageTest -->
+      <class name="NewUserPageTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:NewUserPageTest@31610302]" name="initializeDriver" is-config="true" duration-ms="30181" started-at="2021-07-22T21:08:59 IST" finished-at="2021-07-22T21:09:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="verifySelectUserTypeDropDown()[pri:0, instance:NewUserPageTest@31610302]" name="verifySelectUserTypeDropDown" duration-ms="1721" started-at="2021-07-22T21:09:29 IST" finished-at="2021-07-22T21:09:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectUserTypeDropDown -->
+        <test-method status="PASS" signature="verifyUserDetails()[pri:0, instance:NewUserPageTest@31610302]" name="verifyUserDetails" duration-ms="13" started-at="2021-07-22T21:09:31 IST" finished-at="2021-07-22T21:09:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserDetails -->
+      </class> <!-- NewUserPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

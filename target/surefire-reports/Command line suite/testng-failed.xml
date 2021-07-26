@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="NewUserPageTest">
+        <methods>
+          <include name="verifyUserDetails"/>
+          <include name="initializeDriver"/>
+          <include name="verifySelectUserTypeDropDown"/>
+        </methods>
+      </class> <!-- NewUserPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="99704" started-at="2021-07-25T22:38:13 IST" finished-at="2021-07-25T22:39:53 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="99704" started-at="2021-07-25T22:38:13 IST" finished-at="2021-07-25T22:39:53 IST">
+      <class name="homePageTest.verifyDashBoardText">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:homePageTest.verifyDashBoardText@56235b8e]" name="initializeDriver" is-config="true" duration-ms="2960" started-at="2021-07-25T22:39:16 IST" finished-at="2021-07-25T22:39:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="SigintoBrowser()[pri:0, instance:homePageTest.verifyDashBoardText@56235b8e]" name="SigintoBrowser" is-config="true" duration-ms="13170" started-at="2021-07-25T22:39:19 IST" finished-at="2021-07-25T22:39:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigintoBrowser -->
+        <test-method status="PASS" signature="verifyDashboardText()[pri:0, instance:homePageTest.verifyDashBoardText@56235b8e]" name="verifyDashboardText" duration-ms="359" started-at="2021-07-25T22:39:32 IST" finished-at="2021-07-25T22:39:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardText -->
+        <test-method status="PASS" signature="signOut()[pri:0, instance:homePageTest.verifyDashBoardText@56235b8e]" name="signOut" is-config="true" duration-ms="2732" started-at="2021-07-25T22:39:32 IST" finished-at="2021-07-25T22:39:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:homePageTest.verifyDashBoardText@56235b8e]" name="closeDriver" is-config="true" duration-ms="805" started-at="2021-07-25T22:39:35 IST" finished-at="2021-07-25T22:39:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- homePageTest.verifyDashBoardText -->
+      <class name="homePageTest.VerifyHomePageLogo">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:homePageTest.VerifyHomePageLogo@5ce81285]" name="initializeDriver" is-config="true" duration-ms="7931" started-at="2021-07-25T22:38:13 IST" finished-at="2021-07-25T22:38:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="SigintoBrowser()[pri:0, instance:homePageTest.VerifyHomePageLogo@5ce81285]" name="SigintoBrowser" is-config="true" duration-ms="10071" started-at="2021-07-25T22:38:21 IST" finished-at="2021-07-25T22:38:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigintoBrowser -->
+        <test-method status="PASS" signature="verifyAussieTimeSheetsimg()[pri:0, instance:homePageTest.VerifyHomePageLogo@5ce81285]" name="verifyAussieTimeSheetsimg" duration-ms="599" started-at="2021-07-25T22:38:31 IST" finished-at="2021-07-25T22:38:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAussieTimeSheetsimg -->
+        <test-method status="PASS" signature="signOut()[pri:0, instance:homePageTest.VerifyHomePageLogo@5ce81285]" name="signOut" is-config="true" duration-ms="1689" started-at="2021-07-25T22:38:32 IST" finished-at="2021-07-25T22:38:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:homePageTest.VerifyHomePageLogo@5ce81285]" name="closeDriver" is-config="true" duration-ms="737" started-at="2021-07-25T22:38:34 IST" finished-at="2021-07-25T22:38:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- homePageTest.VerifyHomePageLogo -->
+      <class name="homePageTest.VerifyHomePageTitle">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:homePageTest.VerifyHomePageTitle@20398b7c]" name="initializeDriver" is-config="true" duration-ms="3465" started-at="2021-07-25T22:38:34 IST" finished-at="2021-07-25T22:38:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="SigintoBrowser()[pri:0, instance:homePageTest.VerifyHomePageTitle@20398b7c]" name="SigintoBrowser" is-config="true" duration-ms="14088" started-at="2021-07-25T22:38:38 IST" finished-at="2021-07-25T22:38:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigintoBrowser -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:homePageTest.VerifyHomePageTitle@20398b7c]" name="verifyPageTitle" duration-ms="21" started-at="2021-07-25T22:38:52 IST" finished-at="2021-07-25T22:38:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="signOut()[pri:0, instance:homePageTest.VerifyHomePageTitle@20398b7c]" name="signOut" is-config="true" duration-ms="2815" started-at="2021-07-25T22:38:52 IST" finished-at="2021-07-25T22:38:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:homePageTest.VerifyHomePageTitle@20398b7c]" name="closeDriver" is-config="true" duration-ms="776" started-at="2021-07-25T22:38:55 IST" finished-at="2021-07-25T22:38:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- homePageTest.VerifyHomePageTitle -->
+      <class name="homePageTest.verifyLanguageLinkAvailable">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:homePageTest.verifyLanguageLinkAvailable@6fc6f14e]" name="initializeDriver" is-config="true" duration-ms="3867" started-at="2021-07-25T22:38:56 IST" finished-at="2021-07-25T22:38:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="SigintoBrowser()[pri:0, instance:homePageTest.verifyLanguageLinkAvailable@6fc6f14e]" name="SigintoBrowser" is-config="true" duration-ms="13032" started-at="2021-07-25T22:38:59 IST" finished-at="2021-07-25T22:39:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigintoBrowser -->
+        <test-method status="PASS" signature="verifyLanguagesLinkIsAvailable()[pri:0, instance:homePageTest.verifyLanguageLinkAvailable@6fc6f14e]" name="verifyLanguagesLinkIsAvailable" duration-ms="537" started-at="2021-07-25T22:39:13 IST" finished-at="2021-07-25T22:39:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLanguagesLinkIsAvailable -->
+        <test-method status="PASS" signature="signOut()[pri:0, instance:homePageTest.verifyLanguageLinkAvailable@6fc6f14e]" name="signOut" is-config="true" duration-ms="2127" started-at="2021-07-25T22:39:13 IST" finished-at="2021-07-25T22:39:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:homePageTest.verifyLanguageLinkAvailable@6fc6f14e]" name="closeDriver" is-config="true" duration-ms="719" started-at="2021-07-25T22:39:15 IST" finished-at="2021-07-25T22:39:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- homePageTest.verifyLanguageLinkAvailable -->
+      <class name="homePageTest.verifyShoppingCartIcon">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:homePageTest.verifyShoppingCartIcon@3632be31]" name="initializeDriver" is-config="true" duration-ms="3720" started-at="2021-07-25T22:39:36 IST" finished-at="2021-07-25T22:39:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="SigintoBrowser()[pri:0, instance:homePageTest.verifyShoppingCartIcon@3632be31]" name="SigintoBrowser" is-config="true" duration-ms="10334" started-at="2021-07-25T22:39:40 IST" finished-at="2021-07-25T22:39:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigintoBrowser -->
+        <test-method status="PASS" signature="verifyShoppingCartIconisAvailable()[pri:0, instance:homePageTest.verifyShoppingCartIcon@3632be31]" name="verifyShoppingCartIconisAvailable" duration-ms="343" started-at="2021-07-25T22:39:50 IST" finished-at="2021-07-25T22:39:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShoppingCartIconisAvailable -->
+        <test-method status="PASS" signature="signOut()[pri:0, instance:homePageTest.verifyShoppingCartIcon@3632be31]" name="signOut" is-config="true" duration-ms="1883" started-at="2021-07-25T22:39:50 IST" finished-at="2021-07-25T22:39:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:homePageTest.verifyShoppingCartIcon@3632be31]" name="closeDriver" is-config="true" duration-ms="706" started-at="2021-07-25T22:39:52 IST" finished-at="2021-07-25T22:39:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- homePageTest.verifyShoppingCartIcon -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

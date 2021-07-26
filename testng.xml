@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite" parallel="methods">
+  <test thread-count="1" name="Test" parallel="methods">
+    <classes>
+    
+      
+      <class name="LoginPageTest"/>
+      <class name="HomePageTest"/>
+      <class name="NewUserPageTest"/>
+      <class name="AllUsersPageTest"/>
+      <suiteXmlFiles>
+                        <suiteXmlFile>HomePageTest.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="LoginPageTest">
+        <methods>
+          <include name="verifyPageTitle"/>
+          <include name="initializeDriver"/>
+          <include name="SigintoBrowser"/>
+        </methods>
+      </class> <!-- LoginPageTest -->
+      <class name="NewUserPageTest">
+        <methods>
+          <include name="verifyUserDetails"/>
+          <include name="initializeDriver"/>
+          <include name="verifySelectUserTypeDropDown"/>
+        </methods>
+      </class> <!-- NewUserPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
